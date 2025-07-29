@@ -1,5 +1,5 @@
 {% set name = "ocetrac" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,8 +7,8 @@ package:
 
 source:
   fn: ocetrac-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1f8dd140581781fa0ed77bc462020e65afc9e544de0e203f937aa35857596b7c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: db1e5d13839db783f00fe5eb3c714379e6e43d8fe2911d9be9bcd4cf6364f298
 
 build:
   noarch: python
